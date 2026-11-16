@@ -15,7 +15,7 @@ namespace Lab2_OOP_basics
 
         public void attack(Unit unit)
         {
-            if (isAlive())
+            if (isAlive() && unit != null)
             {
                 unit.recieveDamage(15);
             }

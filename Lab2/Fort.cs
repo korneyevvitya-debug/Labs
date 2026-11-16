@@ -14,7 +14,7 @@ namespace Lab2_OOP_basics
 
         public void attack(Unit unit)
         {
-            if (isBuilt())
+            if (isBuilt() && unit != null)
             {
                 unit.recieveDamage(25);
             }
